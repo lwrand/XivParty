@@ -5,28 +5,24 @@
             <animSpeed>0.1</animSpeed>
             <hp>
                 <imgBg>
-                    <!--<color>#FF9597FF</color>-->
-					<color>#0E9A4FFF</color>
-                    <path>assets/BarBG_grey.png</path>
+                    <color>#FFFFFFFF</color>
+                    <path>assets/BarBG.png</path>
                     <size>107,10</size>
                 </imgBg>
                 <imgFg>
-                    <!--<color>#FF9597FF</color>-->
-					<color>#0E9A4FFF</color>
+                    <color>#FFFFFFFF</color>
                     <path>assets/BarFG.png</path>
                     <size>103,6</size>
                 </imgFg>
             </hp>
             <mp>
                 <imgBg>
-                    <!--<color>#FFFF9CFF</color>-->
-					<color>#225387FF</color>
-                    <path>assets/BarBG_grey.png</path>
+                    <color>#FFFFFFFF</color>
+                    <path>assets/BarBG.png</path>
                     <size>107,10</size>
                 </imgBg>
                 <imgFg>
-                    <!--<color>#FFFF9CFF</color>-->
-					<color>#225387FF</color>
+                    <color>#FFFFFFFF</color>
                     <path>assets/BarFG.png</path>
                     <size>103,6</size>
                 </imgFg>
@@ -35,12 +31,12 @@
             <spacingX>20</spacingX>
             <tp>
                 <imgBg>
-                    <color>#8EB4F9FF</color>
-                    <path>assets/BarBG_grey.png</path>
+                    <color>#FFFFFFFF</color>
+                    <path>assets/BarBG.png</path>
                     <size>107,10</size>
                 </imgBg>
                 <imgFg>
-                    <color>#8EB4F9FF</color>
+                    <color>#FFFFFFFF</color>
                     <path>assets/BarFG.png</path>
                     <size>103,6</size>
                 </imgFg>
@@ -49,18 +45,18 @@
         <bg>
             <imgBottom>
                 <color>#FFFFFFFF</color>
-                <path>assets/FfxiBgBottom_small.png</path>
-                <size>420,13</size>
+                <path>assets/BgBottom_transp.png</path>
+                <size>377,21</size>
             </imgBottom>
             <imgMid>
                 <color>#FFFFFFFF</color>
-                <path>assets/FfxiBgMid_small.png</path>
-                <size>420,5</size>
+                <path>assets/BgMid_transp.png</path>
+                <size>377,12</size>
             </imgMid>
             <imgTop>
                 <color>#FFFFFFFF</color>
-                <path>assets/FfxiBgTop_small.png</path>
-                <size>420,16</size>
+                <path>assets/BgTop_transp.png</path>
+                <size>377,21</size>
             </imgTop>
         </bg>
         <buffIcons>
@@ -81,7 +77,7 @@
         </cursor>
         <list>
             <itemHeight>34</itemHeight>
-            <offset>10,0</offset>
+            <offset>22,0</offset>
         </list>
         <range>
             <img>
@@ -96,7 +92,6 @@
             <hpOrangeColor>#F8BA80FF</hpOrangeColor>
             <hpRedColor>#FC8182FF</hpRedColor>
             <hpYellowColor>#F3F37CFF</hpYellowColor>
-			<hpGreenColor>#0E9A4FFF</hpGreenColor>
             <job>
                 <color>#F0FFFFFF</color>
                 <font>Arial</font>

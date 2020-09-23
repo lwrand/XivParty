@@ -112,6 +112,7 @@ layout.text.tpFullColor = '#50B4FAFF'
 layout.text.hpYellowColor = '#F3F37CFF'
 layout.text.hpOrangeColor = '#F8BA80FF'
 layout.text.hpRedColor = '#FC8182FF'
+layout.text.hpGreenColor = '#0E9A4FFF'
 
 layout.text.numbers = {}
 layout.text.numbers.font = 'Grammara'

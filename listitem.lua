@@ -69,6 +69,7 @@ function listitem:init()
 	obj.hpYellowColor = utils:colorFromHex(layout.text.hpYellowColor)
 	obj.hpOrangeColor = utils:colorFromHex(layout.text.hpOrangeColor)
 	obj.hpRedColor = utils:colorFromHex(layout.text.hpRedColor)
+	obj.hpGreenColor = utils:colorFromHex(layout.text.hpGreenColor)
 	
 	obj.barOffset = utils:coord(layout.bar.offset)
 	obj.rangeOffset = utils:coord(layout.range.offset)
@@ -203,10 +204,15 @@ function listitem:updateBarAndText(bar, text, val, valPercent, distance, barType
 		if val >= 0 then
 			if valPercent < 25 then
 				color = self.hpRedColor
+				bar:setColor(self.hpRedColor);
 			elseif valPercent < 50 then
 				color = self.hpOrangeColor
+				bar:setColor(self.hpOrangeColor);
 			elseif valPercent < 75 then
 				color = self.hpYellowColor
+				bar:setColor(self.hpYellowColor);
+			elseif valPercent <= 100 then
+				bar:setColor(self.hpGreenColor);
 			end
 		end
 	elseif barType == 'tp' then

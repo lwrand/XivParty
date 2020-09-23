@@ -80,6 +80,11 @@ function bar:update(targetValue)
 	end
 end
 
+function bar:setColor(col)
+    self.imgBg:color(col.r, col.g, col.b);
+	self.imgFg:color(col.r, col.g, col.b);
+end
+
 function bar:opacity(o)
 	self.imgFg:opacity(o)
 end

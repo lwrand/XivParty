@@ -5,28 +5,24 @@
             <animSpeed>0.1</animSpeed>
             <hp>
                 <imgBg>
-                    <!--<color>#FF9597FF</color>-->
-					<color>#0E9A4FFF</color>
+                    <color>#FF9597FF</color>
                     <path>assets/BarBG_grey.png</path>
                     <size>107,10</size>
                 </imgBg>
                 <imgFg>
-                    <!--<color>#FF9597FF</color>-->
-					<color>#0E9A4FFF</color>
+                    <color>#FF9597FF</color>
                     <path>assets/BarFG.png</path>
                     <size>103,6</size>
                 </imgFg>
             </hp>
             <mp>
                 <imgBg>
-                    <!--<color>#FFFF9CFF</color>-->
-					<color>#225387FF</color>
+                    <color>#FFFF9CFF</color>
                     <path>assets/BarBG_grey.png</path>
                     <size>107,10</size>
                 </imgBg>
                 <imgFg>
-                    <!--<color>#FFFF9CFF</color>-->
-					<color>#225387FF</color>
+                    <color>#FFFF9CFF</color>
                     <path>assets/BarFG.png</path>
                     <size>103,6</size>
                 </imgFg>
@@ -96,7 +92,6 @@
             <hpOrangeColor>#F8BA80FF</hpOrangeColor>
             <hpRedColor>#FC8182FF</hpRedColor>
             <hpYellowColor>#F3F37CFF</hpYellowColor>
-			<hpGreenColor>#0E9A4FFF</hpGreenColor>
             <job>
                 <color>#F0FFFFFF</color>
                 <font>Arial</font>
